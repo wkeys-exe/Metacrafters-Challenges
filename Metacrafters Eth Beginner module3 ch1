@@ -1,0 +1,40 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity 0.8.18;
+
+contract Challenge1{
+ uint id;
+ string userName;
+ address wkeyslrc;
+ int price;
+ 
+ function setuserName() public {
+     userName="aditya";
+ }
+function getuserName() public view returns (string memory) {
+    return userName;
+}
+
+function setaddress() public {
+    wkeyslrc = 0xc0ffee254729296a45a3885639AC7E10F9d54979; //not real address
+}
+
+function getaddress() public view returns (address) {
+    return wkeyslrc;
+}
+
+function setPrice() public {
+     price = 1;
+}
+
+function getPrice() public view returns (int) {
+    return price;
+}
+ function setid() public {
+     id = 398;
+ }
+
+function getid() public view returns(uint) {
+    return id;
+}
+} 
