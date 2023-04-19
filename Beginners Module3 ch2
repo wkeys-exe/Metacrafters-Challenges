@@ -7,8 +7,8 @@ contract Challenge2 {
     uint public gweiCost;
     uint public weiCost;
 
-    function getAvailableEth(uint _ether) public { 
-         availableEth = _ether;
+    function getAvailableEth(uint ethAmount) public { 
+         availableEth = ethAmount;
     }
 
     function getGweiCost() public  returns (uint) {
