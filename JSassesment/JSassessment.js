@@ -43,8 +43,9 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
-mintNFT("Aastha", "Brown", "Blade-1", "Katana-Girl");
-mintNFT("Aditya", "Black", "Blade-2", "Katana-Boy");
+mintNFT("Wkeys", "Blue", "Katana-1", "Samurai-clothes");
+mintNFT("Aditya", "Red", "Katana-2", "Ninja-clothes");
+mintNFT("Titan", "Orange", "Katana-3", "Titan-clothes");
 
 listNFTS();
 getTotalSupply();
