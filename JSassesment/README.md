@@ -1,2 +1,2 @@
-##JS assesment
+## JS assesment
 
