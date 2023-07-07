@@ -52,7 +52,7 @@ mintNFT("Titan", "Orange", "Katana-3", "Titan-clothes");
 listNFTS();
 getTotalSupply();
 ```
-##To Test the code
+## To Test the code
 
 This code can be tested at https://www.gitpod.io/cde
 
