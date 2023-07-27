@@ -17,7 +17,7 @@ contract ExceptionHandling {
     function revertExample(bool condition) public pure {
         // revert() statement is used to revert the transaction with an error message
         if (condition) {
-            revert("Custom error message");
+            revert("error");
         }
     }
 }
